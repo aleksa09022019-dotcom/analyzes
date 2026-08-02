@@ -1,0 +1,25 @@
+{
+  "name": "MedScan — анализ крови и здоровье с ИИ",
+  "short_name": "MedScan",
+  "description": "Анализ крови, давления, сахара и лекарств с ИИ",
+  "start_url": "./MedScan.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A1220",
+  "theme_color": "#0A1220",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
