@@ -275,7 +275,6 @@ tr:last-child td{border-bottom:none}
       ✨ Шаг 3 — Интерпретировать
     </button>
     <div class="main-hint" data-i18n="interpretHint">ИИ проанализирует показатели и объяснит результаты</div>
-
     <div id="resultArea"></div>
   </div>
 
@@ -462,6 +461,7 @@ const translations = {
     navHistory: 'История',
     navCompare: 'Динамика',
     privacyLink: 'Политика конфиденциальности',
+    termsLink: 'Условия использования',
     noPressureData: 'Пока нет измерений давления',
     noGlucoseData: 'Пока нет измерений сахара',
     noMedsData: 'Пока нет добавленных лекарств',
@@ -558,6 +558,7 @@ const translations = {
     navHistory: 'History',
     navCompare: 'Trends',
     privacyLink: 'Privacy Policy',
+    termsLink: 'Terms of Use',
     noPressureData: 'No blood pressure measurements yet',
     noGlucoseData: 'No glucose measurements yet',
     noMedsData: 'No medications added yet',
@@ -848,7 +849,6 @@ function switchTab(id){
   window.scrollTo(0,0);
 }
 
-
 function fillExample(){
   if(currentLang==='ru'){
     document.getElementById('patName').value='Иванова Мария';
@@ -1052,6 +1052,8 @@ if ('serviceWorker' in navigator) {
 
 <div style="text-align:center;padding:20px 16px 90px;color:var(--text3);font-size:12px">
   <a href="privacy.html" style="color:var(--text3);text-decoration:underline" data-i18n="privacyLink">Политика конфиденциальности</a>
+  &nbsp;·&nbsp;
+  <a href="terms.html" style="color:var(--text3);text-decoration:underline" data-i18n="termsLink">Условия использования</a>
 </div>
 
 </body>
